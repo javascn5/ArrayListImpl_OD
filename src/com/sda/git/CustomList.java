@@ -1,8 +1,6 @@
 package com.sda.git;
 // implementacja wlasnej Arraylisty
 
-import java.util.Arrays;
-
 public class CustomList<E> {
 
     private int size = 0;
@@ -48,6 +46,9 @@ public class CustomList<E> {
 
     public int size() {
         return size;
+    }
+    public remove(int index){
+        //miejsce w tablicy, ktre usuwamy
     }
 
 }
